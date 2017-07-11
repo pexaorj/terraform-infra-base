@@ -11,7 +11,6 @@ Maiores informações estão abaixo, no entanto em caso de dúvidas, peço que e
 - Utiliza um bucket com dois arquivos de state para separar a arquitetura basica de infraestrutura tais como:
 
 ->Arch-State
-
 --VPC
 --Subnets (DMZ e Banco)
 --Rotas
@@ -20,7 +19,6 @@ Maiores informações estão abaixo, no entanto em caso de dúvidas, peço que e
 
 
 ->Deploy-State
-
 --Subnets(apps)
 --Instancias de aplicação
 
