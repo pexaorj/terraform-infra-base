@@ -10,17 +10,17 @@ Maiores informações estão abaixo, no entanto em caso de dúvidas, peço que e
 - Repositorio para criar infraestrutura básica na AWS com duas zonas de disponibilidade (Zona A e Zona C)
 - Utiliza um bucket com dois arquivos de state para separar a arquitetura basica de infraestrutura tais como:
 
->Arch-State
-´´´
+->Arch-State
+
 --VPC
 --Subnets (DMZ e Banco)
 --Rotas
 --IGW
 --Etc
 
-´´´
->Deploy-State
-´´´
+
+->Deploy-State
+
 --Subnets(apps)
 --Instancias de aplicação
 
